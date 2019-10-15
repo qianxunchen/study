@@ -34,6 +34,6 @@ class CustomerManager:
         return paid,total
 
 print('张三',(CustomerManager.pay_price('张三',100)))
-print('zhangsan',(CustomerManager.pay_price('zhangsan',100)))
-print('zhangsan',(CustomerManager.pay_price('zhangsan',900)))
-print('zhangsan',(CustomerManager.pay_price('zhangsan',900)))
+print('张三',(CustomerManager.pay_price('张三',100)))
+print('张三',(CustomerManager.pay_price('张三',900)))
+print('张三',(CustomerManager.pay_price('张三',900)))
