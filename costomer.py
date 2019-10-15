@@ -33,7 +33,7 @@ class CustomerManager:
             cls.__name_to_customer[name] = VIP(name,total)
         return paid,total
 
-print('张三',(CustomerManager.pay_price('张三',100)))
-print('张三',(CustomerManager.pay_price('张三',100)))
-print('张三',(CustomerManager.pay_price('张三',900)))
-print('张三',(CustomerManager.pay_price('张三',900)))
+print('张三，第一次',(CustomerManager.pay_price('张三',100)))
+print('张三，第二次',(CustomerManager.pay_price('张三',100)))
+print('张三，第三次',(CustomerManager.pay_price('张三',900)))
+print('张三，第四次',(CustomerManager.pay_price('张三',900)))
