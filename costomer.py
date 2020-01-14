@@ -1,3 +1,4 @@
+# 消费者折扣问题
 class Customer:
     def __init__(self,name,total=0.0):
         self._name = name
