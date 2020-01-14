@@ -31,5 +31,5 @@ def while_Binary_search(a,n):
 
 if __name__ == '__main__':
     a = [1,2,3,4,5,6,7]
-    Binary_search(a , 2)
-    while_Binary_search(a,4)
+    Binary_search(a , 2)#递归实现二分法查找
+    while_Binary_search(a,4)#循环实现二分法查找
