@@ -1,3 +1,4 @@
+# 排序求最小的k个数
 def sort(a):
     for i in range(1, len(a)):
         for j in range(0, len(a)-i):
