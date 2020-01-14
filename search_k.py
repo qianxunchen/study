@@ -12,4 +12,5 @@ sort(a)
 print(a)
 x = 3
 c = a[:x]
+print("最小的k个数：")
 print(c)
