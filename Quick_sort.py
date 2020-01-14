@@ -1,4 +1,4 @@
-# 快速排序
+# 递归实现快速排序
 class Quick_sort:
     def sort(self,a):
         start = 0
