@@ -41,4 +41,4 @@ s1 = "abcadec"
 s2 = "gdydec"
 B,C,D = LCS(s1,s2)
 print("最长公共子序列的长度为：%d"%C[-1,-1])
-print("".join(D))
+print("".join(D))#输出最长公共子序列
